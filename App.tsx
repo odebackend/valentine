@@ -204,9 +204,7 @@ const App: React.FC = () => {
                 onClick={(e) => {
                   e.stopPropagation();
                   moveNoButton();
-                  if (noClickCount >= 0) {
-                    alert("ម៉េចក៏ដាច់ចិត្តម្ល៉េះ! ចុច 'ព្រម' ទៅណា៎ babe... 🥺👉👈");
-                  }
+                 
                 }}
                 style={noClickCount > 0 ? { position: 'fixed', left: noButtonPos.x, top: noButtonPos.y, transition: 'all 0.2s ease-out', zIndex: 50 } : {}}
                 className="bg-gray-300 hover:bg-gray-400 text-gray-700 font-bold py-4 px-10 rounded-full shadow-md whitespace-nowrap khmer-font"
