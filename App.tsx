@@ -188,7 +188,7 @@ const App: React.FC = () => {
 
             <h1 className="text-3xl md:text-4xl font-bold text-red-600 mb-2 khmer-font leading-tight">សួស្តី my Besdong Cute </h1>
             <p className="text-gray-600 mb-8 font-semibold khmer-font text-lg">បងមានអីសួរអូន...</p>
-            <h2 className="text-2xl font-bold text-pink-700 mb-10 khmer-font leading-relaxed">Yahh!! បងស្រឡាញ់អូន! អូនឡាញ់បងអត់ Babe 💗😖?</h2>
+            <h2 className="text-2xl font-bold text-pink-700 mb-10 khmer-font leading-relaxed">Yaahh!! បងស្រឡាញ់អូន! អូនឡាញ់បងអត់ Babe 💗😖?</h2>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 relative min-h-[100px]">
               <button
